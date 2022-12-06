@@ -1,0 +1,20 @@
+.root {
+    background-color: beige;
+    max-width: 600px;
+}
+
+.svg circle {
+    fill: black;
+}
+
+.svg polygon {
+    fill: none;
+    stroke: black;
+    stroke-width: 1px;
+    pointer-events: all;
+}
+
+.svg polygon.selected {
+    fill-opacity: 0.3;
+    fill:aqua;
+}

@@ -1,13 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-interface AppProps {
-    title: string;
-}
-
-const App = (props: AppProps) => <h2>{props.title}</h2>;
+import {Page} from './components/Page';
 
 ReactDOM.render(
-    <App title="Voronogo diagram coming soon" />,
+    <Page />,
     document.getElementById('root')
 );

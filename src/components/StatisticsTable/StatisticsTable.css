@@ -1,0 +1,14 @@
+.table {
+    border-collapse: collapse;
+    border: 1px solid grey;
+    max-width: 600px;
+}
+
+.table th {
+    border: 1px solid grey;
+}
+
+.table td {
+    border: 1px solid grey;
+    text-align: center;
+}
